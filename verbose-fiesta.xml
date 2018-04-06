@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="scz" fetch="https://github.com/sanchaez/" />
+  <project name="verbose-fiesta"
+           remote="scz"
+           path="packages/services/Myservices/verbose-fiesta"
+           revision="master"/>
+</manifest>

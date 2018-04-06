@@ -1,4 +1,0 @@
-cc_binary {
-    name: "verbose-fiesta",
-    srcs: ["main.cpp"],
-}
