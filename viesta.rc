@@ -1,0 +1,5 @@
+service viesta /system/bin/verbose-fiesta
+    oneshot
+
+on boot
+    exec_start viesta

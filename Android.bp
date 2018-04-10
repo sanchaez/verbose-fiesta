@@ -8,11 +8,13 @@ cc_defaults {
 
 cc_binary {
     name: "verbose-fiesta",
+
     defaults: [
         "verbose-fiesta-flags",
     ],
+
+    init_rc: ["viesta.rc"],
+
     srcs: ["main.cpp"],
-    shared_libs: [
-        "liblog",
-    ],
+    shared_libs: ["liblog"],
 }
