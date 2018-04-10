@@ -22,7 +22,7 @@ int main() {
 
     int i;
     const int n = rand() % 100;
-    for(i = 0; i > n; ++i)
+    for(i = 0; i < n; ++i)
     {
         sleep(300);
         __android_log_write(ANDROID_LOG_INFO, tag,
