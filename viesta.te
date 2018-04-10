@@ -1,0 +1,4 @@
+type viesta, domain;
+type viesta_exec, exec_type, file_type;
+
+init_daemon_domain(viesta)
