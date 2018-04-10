@@ -1,4 +1,18 @@
+cc_defaults {
+    name: "verbose-fiesta-flags",
+    cflags: [
+        "-Wall",
+        "-Werror"
+    ],
+}
+
 cc_binary {
     name: "verbose-fiesta",
+    defaults: [
+        "verbose-fiesta-flags",
+    ],
     srcs: ["main.cpp"],
+    shared_libs: [
+        "liblog",
+    ],
 }
